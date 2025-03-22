@@ -1,0 +1,23 @@
+####################################################################################################
+## @file        .gitignore
+ #  @brief      x
+ #  @ref        x
+ #
+ #  @author     Justin Reina, Firmware Engineer
+ #  @created    3/5/25
+ #  @last rev   3/7/25
+ #
+ #  @section    Legal Disclaimer
+ #          © 2025 Justin Reina, All rights reserved. All contents of this source file and/or
+ #          any other related source files are the explicity property of Justin Reina. Do not 
+ #          distribute. Do not copy. 
+ #/
+####################################################################################################
+
+
+
+####################################################################################################
+##                                          BUILD CONTENTS                                        ##
+####################################################################################################
+/build/
+
