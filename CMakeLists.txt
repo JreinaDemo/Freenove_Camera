@@ -1,6 +1,16 @@
-# The following five lines of boilerplate have to be in your project's
-# CMakeLists in this exact order for cmake to work correctly
+# Project Config
 cmake_minimum_required(VERSION 3.16)
 
+
+#Include Paths
+include_directories(
+					"D:/Documents/Ref/Platforms/Espressif/Lbr/esp32-camera/driver/include"
+					"D:/Documents/Ref/Platforms/Espressif/Lbr/esp32-camera/conversions/include"
+					"D:/Documents/Ref/Platforms/Espressif/Lbr/esp32-arduino-lib-builder/components/fb_gfx/include"
+				   )
+
+#
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(wifi_station)
+
+#
+project(freenove_camera)

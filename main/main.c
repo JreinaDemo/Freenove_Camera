@@ -5,7 +5,7 @@
  *
  *  @author   Justin Reina, Firmware Engineer
  *  @created  3/21/25
- *  @last rev 3/21/25
+ *  @last rev 3/22/25
  *
  *
  *  @notes    Work in progress!!
@@ -261,7 +261,7 @@ void wifi_init_sta(void) {
  *  @details    x
  */
 /**************************************************************************************************/
-
+extern int test_jmr;
 void app_main(void) {
 	
     //Initialize NVS
@@ -283,6 +283,9 @@ void app_main(void) {
     ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
     
     wifi_init_sta();
+
+    ESP_LOGI(TAG, "ESP_WIFI_MODE_STA Prepared. %d", test_jmr);
+
     
     return;
 }
